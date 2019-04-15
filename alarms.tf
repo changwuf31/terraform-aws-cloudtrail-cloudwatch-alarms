@@ -9,12 +9,12 @@ locals {
 
   metric_name = [
     "UnauthorizedAPICalls",
-    "ConsoleLoginNoMFAUsed",
+    "ConsoleSignInNoMFAUsed",
     "RootUsage",
     "IAMChanges",
-    "CloudTrailCfgChanges",
+    "CloudTrailChanges",
     "ConsoleSigninFailures",
-    "DisableOrDeleteCMK",
+    "KmsCmkDisableKeyOrScheduleKeyDeletion",
     "S3BucketPolicyChanges",
     "AWSConfigChanges",
     "SecurityGroupChanges",
